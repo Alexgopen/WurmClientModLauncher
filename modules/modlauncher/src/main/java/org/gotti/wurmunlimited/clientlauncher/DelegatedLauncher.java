@@ -22,9 +22,7 @@ public class DelegatedLauncher {
 		
 		try {
 			new ModLoader().loadModsFromModDir(Paths.get("mods"));
-			
 			setupClientLoggerHooks();
-			
 			HookManager.getInstance().getLoader().run(WURM_MAIN_CLASS, args);
 		} catch (Throwable e) {
 			Logger.getLogger(DelegatedLauncher.class.getName()).log(Level.SEVERE, e.getMessage(), e);

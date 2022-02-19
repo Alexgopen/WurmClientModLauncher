@@ -11,9 +11,6 @@
 	<modules>
 		<module>modules/modlauncher</module>
 		<module>modules/patcher</module>
-		<module>modules/mods/connectionfix</module>
-		<module>modules/mods/custommap</module>
-		<module>modules/mods/serverpacks</module>
 		<module>modules/dist</module>
 	</modules>
 
